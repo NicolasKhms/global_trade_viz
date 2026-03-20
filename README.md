@@ -13,8 +13,9 @@ This project explores how countries trade energy products (oil, gas, coal, petro
 ## Folder Structure
 
 ```
-com480-trade-viz/
+Vizion/
 ├── README.md
+├── Milestone1.pdf
 ├── requirements.txt
 ├── app.py                  ← Dash interactive dashboard
 ├── data/
