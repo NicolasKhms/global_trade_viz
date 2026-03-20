@@ -39,7 +39,7 @@ com480-trade-viz/
 │   ├── figures/              ← Saved EDA plots
 │   └── tables/               ← Saved summary tables
 └── docs/
-    └── milestone1_notes.md   ← Milestone 1 report draft
+    └── milestone1_notes.md   ← Milestone 1 report 
 ```
 
 ## Setup
