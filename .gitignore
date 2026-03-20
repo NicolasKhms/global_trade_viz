@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data artifacts — keep raw and processed dirs but not large files
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.zip
+data/processed/*.csv
+data/processed/*.xlsx
+
+# Outputs — keep dirs but not generated files
+outputs/figures/*.png
+outputs/figures/*.svg
+outputs/figures/*.pdf
+outputs/figures/*.html
+outputs/tables/*.csv
+outputs/tables/*.xlsx
+
+# Misc
+*.log
+.python-version
