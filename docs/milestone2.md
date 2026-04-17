@@ -28,6 +28,9 @@ Team COM-480 Trade Viz · 2026-04-17
 \vspace{0.4cm}
 
 **Live prototype:** <https://global-trade-viz.onrender.com>
+*(Render free tier — first request after inactivity may take ~30–60 s to
+cold-start while the container reloads; subsequent interactions are
+instant.)*
 **Repository:** <https://github.com/com-480-data-visualization/Vizion>
 
 \newpage

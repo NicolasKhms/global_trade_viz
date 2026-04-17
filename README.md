@@ -1,6 +1,23 @@
-# Global Energy Trade Flows — COM-480 Data Visualization
+# Global Trade Explorer — COM-480 Data Visualization
 
-Interactive visualization of global energy trade dependencies using UN Comtrade data.
+Interactive visualization of global trade flows, dependencies, and
+disruptions across five commodity families (energy, cereals, steel,
+machinery, vehicles) using UN Comtrade data, 2000–2023.
+
+## 🌐 Live Demo
+
+**<https://global-trade-viz.onrender.com>**
+
+> *Hosted on Render's free tier — the first request after a period of
+> inactivity may take **~30–60 seconds** to cold-start while the
+> container spins back up and the 5 commodity datasets load. Subsequent
+> interactions are instant.*
+
+## 📄 Reports
+
+- **Milestone 1:** [`Milestone1.pdf`](Milestone1.pdf) · notes in [`docs/milestone1_notes.md`](docs/milestone1_notes.md)
+- **Milestone 2:** [`docs/milestone2.pdf`](docs/milestone2.pdf) · source in [`docs/milestone2.md`](docs/milestone2.md)
+
 ![global_map](images/global_map.png)
 
 ## Project Description
