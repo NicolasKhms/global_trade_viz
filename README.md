@@ -13,8 +13,9 @@ This project explores how countries trade energy products (oil, gas, coal, petro
 ## Folder Structure
 
 ```
-com480-trade-viz/
+Vizion/
 ├── README.md
+├── Milestone1.pdf
 ├── requirements.txt
 ├── app.py                  ← Dash interactive dashboard
 ├── data/
@@ -39,7 +40,7 @@ com480-trade-viz/
 │   ├── figures/              ← Saved EDA plots
 │   └── tables/               ← Saved summary tables
 └── docs/
-    └── milestone1_notes.md   ← Milestone 1 report draft
+    └── milestone1_notes.md   ← Milestone 1 report 
 ```
 
 ## Setup
