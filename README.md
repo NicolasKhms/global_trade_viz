@@ -1,7 +1,7 @@
 # Global Energy Trade Flows — COM-480 Data Visualization
 
 Interactive visualization of global energy trade dependencies using UN Comtrade data.
-![My plot](images/global_map.png)
+![global_map](images/global_map.png)
 
 ## Project Description
 
