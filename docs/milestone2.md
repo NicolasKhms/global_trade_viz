@@ -27,9 +27,8 @@ Team COM-480 Trade Viz · 2026-04-17
 
 \vspace{0.4cm}
 
-**Live prototype:** *[to be deployed before submission — link will be
-inserted here]*
-**Repository:** `github.com/<user>/com480-trade-viz`
+**Live prototype:** <https://global-trade-viz.onrender.com>
+**Repository:** <https://github.com/com-480-data-visualization/Vizion>
 
 \newpage
 
