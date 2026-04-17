@@ -176,9 +176,9 @@ slider, commodity dropdown, country detail panel with Trade History /
 Sankey / Dependency / Compare tabs, global Top Movers chart, Dependency
 Race animation, preprocessing pipeline, EDA notebook.
 
-**Gaps before milestone 3.** Finish machinery & vehicles downloads; ship
-the disruption simulator; polish color scale and mobile layout; deploy a
-public URL.
+**Gaps before milestone 3.** Ship the disruption simulator; polish color
+scale and mobile layout; add shock annotations to the history chart;
+improve mobile responsiveness.
 
 **Risks.** *API quota* (500 calls/day) — mitigated by per-commodity CSV
 caching. *Missing ISO-3 codes* (~10% of partners) — manual override in
