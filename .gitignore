@@ -27,13 +27,21 @@ env/
 *.swp
 *.swo
 
-# Data artifacts — keep raw and processed dirs but not large files
+# Data artifacts — raw files stay out of the repo
 data/raw/*.csv
 data/raw/*.xlsx
 data/raw/*.xls
 data/raw/*.zip
-data/processed/*.csv
-data/processed/*.xlsx
+
+# Processed: ignore by default, whitelist the per-commodity files the app
+# loads at runtime. The large energy_trade.csv (~122 MB) stays ignored —
+# it exceeds GitHub's per-file limit and is not needed by the deployed app.
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/*_country_summary.csv
+!data/processed/*_partner_flow.csv
+!data/processed/country_summary.csv
+!data/processed/partner_summary.csv
 
 # Outputs — keep dirs but not generated files
 outputs/figures/*.png
