@@ -297,10 +297,47 @@ working around them; the saving was a week of D3 boilerplate we did not
 have to write.
 \end{decision}
 
-We did not produce hand-drawn sketches at M1; our equivalent was a
-\textbf{screenshot-driven design process} where we shipped a rough first
-iteration of each view and refined it from real screenshots. The grid below
-shows the final state of the seven core views.
+\subsection{From plan to prototype: M1 findings become M3 views}
+
+Our milestone 1 deliverable consisted of the static EDA figures shown on
+page 2 plus a written narrative arguing that \emph{structure}, not totals,
+was the interesting question. Those figures \emph{were} the plan: each
+static observation set the agenda for a corresponding interactive view in
+the dashboard. The mapping below traces that expansion.
+
+\begin{table}[H]
+\centering\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{@{}p{5.2cm}p{1cm}p{9.6cm}@{}}
+\toprule
+\textbf{M1 plan (static EDA finding)} & & \textbf{M3 expansion (interactive view)} \\
+\midrule
+Global energy trade 6$\times$ growth with four shocks visible (line chart, fig.~2a) &
+$\rightarrow$ &
+\textbf{Trade History tab (B)} with shock-band annotations and click-to-update country selection. \\
+Top-1 partner share is heavily skewed (histogram, fig.~2b) &
+$\rightarrow$ &
+\textbf{Dependency panel (D)} with diversified / moderate / concentrated bands and dual top-1 / top-3 lines over time. \\
+Ranking of the most-import-dependent countries (static bar, fig.~2b) &
+$\rightarrow$ &
+\textbf{Dependency Race (F)} animated ranking across all 24 years and 5 commodities. \\
+EDA observation: ``trade is structurally a producer-vs-consumer split'' &
+$\rightarrow$ &
+\textbf{Compare tab (G)} enabling direct head-to-head comparison of two countries' totals, history, and dependency. \\
+EDA observation: three corridors dominate the energy world &
+$\rightarrow$ &
+\textbf{Sankey flow (C)} showing every country's bilateral structure on demand. \\
+Visible YoY shocks (2008, 2020, 2022) in the global series &
+$\rightarrow$ &
+\textbf{Top Movers (E)} surfacing the biggest movers in every year, every commodity. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The pattern is consistent: \emph{static EDA finding $\rightarrow$ interactive
+view that lets the user verify it for any country, year, and commodity}. We
+did not produce hand-drawn sketches at M1; the EDA figures themselves
+\emph{were} the visual plan, and the dashboard is their direct expansion.
 
 \subsection{The seven visualizations}
 
